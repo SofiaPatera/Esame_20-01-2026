@@ -52,6 +52,7 @@ class View:
         self._page.controls.append(self.txt_result)
         self._page.update()
 
+
     @property
     def controller(self):
         return self._controller
